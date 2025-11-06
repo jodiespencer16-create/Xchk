@@ -1,0 +1,9 @@
+python-telegram-bot==20.7
+aiohttp
+psutil
+Faker
+requests
+beautifulsoup4
+httpx
+pytz
+asyncpg
