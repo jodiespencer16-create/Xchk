@@ -5181,7 +5181,9 @@ from telegram.ext import ContextTypes
 from db import get_user, update_user, init_db
 
 # Ensure DB is initialized
-asyncio.get_event_loop().run_until_complete(init_db())
+import asyncio
+
+asyncio.run(init_db())
 
 # --- Error patterns marking site dead ---
 ERROR_PATTERNS = [
